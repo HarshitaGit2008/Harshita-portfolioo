@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Harshita Hosur | Personal Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #faf8fd;
+    color: #302942;
+    line-height: 1.7;
+}
+
+/* Navigation */
+header {
+    background: #e9e0f5;
+    padding: 18px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+header h2 {
+    color: #75549b;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #302942;
+    margin: 8px;
+    font-weight: bold;
+}
+
+/* Home */
+.home {
+    text-align: center;
+    padding: 65px 20px;
+    background: #f0eafa;
+}
+
+.home h1 {
+    font-size: 40px;
+    color: #75549b;
+}
+
+.home h3 {
+    margin: 10px;
+}
+
+.home p {
+    margin: 15px auto;
+    max-width: 650px;
+}
+
+/* Profile picture */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+/* Sections */
+section {
+    padding: 45px 10%;
+}
+
+section h2 {
+    color: #75549b;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px #ddd5e8;
+}
+
+.card h3 {
+    color: #8966b1;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #d9cde8;
+    text-align: center;
+}
+
+th {
+    background: #e9e0f5;
+}
+
+footer {
+    background: #75549b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media(max-width:600px) {
+    nav a {
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 30px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header>
+    <h2>HARSHITA HOSUR</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#social">Social Activities</a>
+        <a href="#interests">Interests</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+</header>
+
+<!-- Home -->
+<div class="home" id="home">
+
+    <!-- Add your photo as profile.jpg -->
+    <img src="profile.jpg" alt="Profile Photo"
+         class="profile">
+
+    <h1>Hello! I'm Harshita Hosur</h1>
+
+    <h3>First Year Civil Engineering Student</h3>
+
+    <p>
+        Welcome to my personal portfolio website!
+        I am a student at Gogte Institute of Technology,
+        Belagavi. I love learning new things, helping
+        others and improving myself.
+    </p>
+
+</div>
+
+<!-- About -->
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            My name is Harshita Hosur. I completed my
+            SSLC and PUC education in Dharwad.
+            Currently, I am pursuing First Year Civil
+            Engineering at Gogte Institute of Technology
+            (GIT), Belagavi.
+
+            I consider myself a positive, helpful,
+            hardworking and enthusiastic person.
+            I believe in kindness, confidence,
+            spirituality and personal development.
+        </p>
+
+        <br>
+
+        <p><b>Date of Birth:</b> 4 July 2008</p>
+        <p><b>Father's Name:</b> Prakash Hosur</p>
+        <p><b>Mother's Name:</b> Kasturi Hosur</p>
+        <p><b>College:</b> GIT, Belagavi</p>
+        <p><b>Department:</b> Civil Engineering</p>
+    </div>
+
+</section>
+
+<!-- Education -->
+<section id="education">
+
+    <h2>My Education</h2>
+
+    <div class="card">
+
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Location</th>
+                <th>Percentage</th>
+            </tr>
+
+            <tr>
+                <td>SSLC</td>
+                <td>Dharwad</td>
+                <td>95%</td>
+            </tr>
+
+            <tr>
+                <td>PUC Science</td>
+                <td>Dharwad</td>
+                <td>87%</td>
+            </tr>
+
+            <tr>
+                <td>Civil Engineering</td>
+                <td>GIT Belagavi</td>
+                <td>First Year</td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+
+<!-- Social Activities -->
+<section id="social">
+
+    <h2>Social Activities</h2>
+
+    <div class="card">
+        <ul>
+            <li>Helping friends with their studies.</li>
+            <li>Supporting friends during difficult times.</li>
+            <li>Motivating others and spreading positivity.</li>
+            <li>Helping elderly people.</li>
+            <li>Showing kindness towards people in need.</li>
+            <li>Encouraging good values and positive thinking.</li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- Interests -->
+<section id="interests">
+
+    <h2>My Interests</h2>
+
+    <div class="card">
+        <ul>
+            <li>Civil Engineering and construction.</li>
+            <li>Learning new skills and gaining knowledge.</li>
+            <li>Technology and Artificial Intelligence.</li>
+            <li>Improving English communication.</li>
+            <li>Personal development.</li>
+            <li>Spirituality and devotional activities.</li>
+            <li>Exploring new experiences.</li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- Achievements -->
+<section id="achievements">
+
+    <h2>My Achievements</h2>
+
+    <div class="card">
+        <ul>
+            <li>Scored 95% in SSLC examinations.</li>
+            <li>Scored 87% in PUC Science.</li>
+            <li>Participated in school sports activities.</li>
+            <li>Received certificates for sports participation.</li>
+            <li>Started my journey in Civil Engineering at GIT.</li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- Hobbies -->
+<section id="hobbies">
+
+    <h2>My Hobbies</h2>
+
+    <div class="card">
+        <ul>
+            <li>Listening to music.</li>
+            <li>Travelling and exploring new places.</li>
+            <li>Spending time with friends.</li>
+            <li>Learning new things.</li>
+            <li>Devotional activities and chanting.</li>
+            <li>Exploring creative ideas.</li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <h3>Thank You For Visiting!</h3>
+
+    <p>Harshita Hosur</p>
+
+    <p>First Year Civil Engineering</p>
+
+    <p>GIT, Belagavi</p>
+
+    <p>© 2026 My Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
